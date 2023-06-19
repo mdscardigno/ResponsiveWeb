@@ -1,57 +1,139 @@
-/* Set the base font size. This is the size represented by 1rem so other rem sizes will be a multiple of this. */
 :root {
-  font-size: 14px;
+  font: 16px / 1 sans-serif;
 }
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/* Remove all default browser margin and padding so we can control that ourselves */
-* {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-/* Default font family for the page */
-body {
-  font-family: Georgia, serif;
-}
-
-/* Customize the header font, font-size, padding and colors */
-header {
-  font-family: sans-serif;
-  font-size: 3rem;
-  padding: 1rem;
-  background-color: #f7f0da;
-  color: #85577e;
-  text-align: center;
-}
-
-/* Give all h3 a little space below the text*/
-h3 {
-  margin-bottom: 0.6rem;
-}
-
-/* Give all paragraphs a little space below the text*/
-p {
-  margin-bottom: 1.5rem;
-}
-
-/* Give all paragraphs a little space below the text*/
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
 section {
-  padding: 0 2rem;
+  display: block;
 }
-
-/* Put a little margin above and below the aside, which has the names of our team members */
-aside {
-  margin: 2rem 0;
+body {
+  line-height: 1;
 }
-
-/* Remove bullets from the list of team members */
-aside ul {
+ol,
+ul {
   list-style: none;
 }
-
-/* Format the list of team member links by removing the underline, a custom color and some padding */
-aside ul li a {
-  color: #900;
-  text-decoration: none;
-  padding: 3px 0;
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
