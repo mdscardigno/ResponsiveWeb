@@ -50,9 +50,28 @@ aside ul {
 }
 
 /* Format the list of team member links by removing the underline, a custom color and some padding */
-aside ul li a {
+/* LoVe, HAte
+Lord Vader Hates Furry Animals
+Lord Vader's Handle Formerly Anakin
+Lord Voldemort Has Foul Ambitions */
+/*Pseudo class
+link: not visited
+visited: visited
+focus: tabbed to
+hover: mouse over
+active: clicked
+*/
+aside ul li a:link,
+aside ul li a:visited {
   color: #900;
   text-decoration: none;
   padding: 3px 0;
+}
+
+/* #links {
+  color: #900;
+} */
+a#links:hover {
+  color: rgb(42, 138, 179) !important;
 }
 /*reset and normalizer*/
