@@ -141,3 +141,44 @@ a#links:hover {
     padding: 4rem 15rem;
   }
 }
+/* Media types: screen print speech all */
+/* @media print {
+  header {
+    display: none;
+  }
+} */
+@media print {
+  body {
+    font-size: 10pt;
+  }
+}
+
+@media screen {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen, print {
+  body {
+    line-height: 1.2;
+  }
+}
+/*Media Features: width height aspect-ratio orientation resolution
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media*/
+
+/* When the screen is wider than 900px */
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
+}
+
+/* When the screen resolution is 150 dots-per-inch */
+@media screen and (resolution: 150dpi) {
+  article {
+    body {
+      line-height: 1.4;
+    }
+  }
+}
