@@ -184,3 +184,25 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media*/
 }
 /* https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 */
+/* min-width means greater than or equal to */
+/* max-width means less than or equal to */
+/* min-device-width means the width of the device's entire rendering area */
+/* max-device-width means the width of the device's entire rendering area */
+/* min-height means greater than or equal to */
+/* max-height means less than or equal to */
+/* min-device-height means the height of the device's entire rendering area */
+/* max-device-height means the height of the device's entire rendering area */
+/* orientation: landscape means the width is greater than the height */
+/* orientation: portrait means the height is greater than the width */
+/* aspect-ratio: 16/9 means the width is 16/9 times the height */
+/* aspect-ratio: 4/3 means the width is 4/3 times the height */
+/* resolution: 300dpi means the resolution is 300 dots-per-inch */
+/* resolution: 1dppx means the resolution is 1 dot-per-pixel */
+/* resolution: 2dppx means the resolution is 2 dots-per-pixel */
+/* resolution: 3dppx means the resolution is 3 dots-per-pixel */
+/* resolution: 300dpi means the resolution is 300 dots-per-inch */
+/* resolution: 1dpcm means the resolution is 1 dot-per-centimeter */
+/* resolution: 118dpcm means the resolution is 118 dots-per-centimeter */
+/* resolution: 300dpi means the resolution is 300 dots-per-inch */
+/* resolution: 96dpi means the resolution is 96 dots-per-inch */
+/* resolution: 1dppx means the resolution is 1 dot-per-pixel */
